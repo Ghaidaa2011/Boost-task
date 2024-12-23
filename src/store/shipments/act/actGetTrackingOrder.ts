@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { default as axios } from 'axios';
 import { AxiosErrorHandler } from "../../../utils";
 
 const actGetTrackingOrder = createAsyncThunk(
